@@ -1,0 +1,25 @@
+App del Clima 🌤️
+
+Aplicación web que muestra información del clima en tiempo real utilizando una API pública(Open Weather), permitiendo al usuario consultar el clima por ciudad.
+
+Proyecto enfocado en el consumo de APIs, validaciones de formularios y diseño responsive.
+
+🚀 Tecnologías utilizadas
+- HTML
+- CSS
+- JavaScript
+- API del Clima
+
+✨ Funcionalidades
+- Búsqueda de clima por ciudad
+- Consumo de API en tiempo real
+- Validación de datos de entrada
+- Manejo de errores
+- Diseño responsive para distintos dispositivos
+
+🎯 Objetivo del proyecto
+Reforzar el uso de APIs, mejorar el manejo de respuestas asincrónicas y crear interfaces claras para mostrar información dinámica.
+
+🔗 Enlaces
+- Demo: https://aplicacionclimadedanielperdomo.netlify.app/
+- Código: *(GitHub repo)*

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clima App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app">
+    <header class="app-header">
+      <h1>Clima App</h1>
+      <p>Consulta el clima en cualquier ciudad</p>
+    </header>
+
+    <section class="search">
+      <form id="weather-form">
+        <input 
+          type="text" 
+          id="city-input" 
+          placeholder="Escribe una ciudad..."
+        />
+        <button type="submit">Buscar</button>
+      </form>
+      <p id="message"></p>
+    </section>
+
+    <section class="weather" id="weather">
+      <img id="weather-icon" alt="Icono del clima" />
+      <div class="temp" id="temperature"></div>
+      <div class="description" id="description"></div>
+      <div class="city" id="city"></div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

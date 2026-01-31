@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-image: url("pexels-njeromin-19161533.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CONTENEDOR */
+.app {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(14px);
+  border-radius: 20px;
+  padding: 30px;
+  color: #ffffff;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+/* HEADER */
+.app-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.app-header h1 {
+  font-size: 32px;
+}
+
+.app-header p {
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+/* BUSCADOR */
+.search form {
+  display: flex;
+  gap: 10px;
+}
+
+.search input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.search button {
+  padding: 12px 18px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ff9800;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: #e68900;
+}
+
+#message {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #ffeb3b;
+  text-align: center;
+}
+
+/* CLIMA */
+.weather {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.weather img {
+  width: 110px;
+  height: 110px;
+}
+
+.weather .temp {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.weather .description {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.weather .city {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.weather {
+  display: none;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+  .app {
+    margin: 20px;
+    padding: 25px;
+  }
+
+  .weather img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .weather .temp {
+    font-size: 52px;
+  }
+}
