@@ -22,4 +22,4 @@ Reforzar el uso de APIs, mejorar el manejo de respuestas asincrónicas y crear i
 
 🔗 Enlaces
 - Demo: https://aplicacionclimadedanielperdomo.netlify.app/
-- Código: *(GitHub repo)*
+
